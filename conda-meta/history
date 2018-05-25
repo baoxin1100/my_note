@@ -28,3 +28,8 @@
 # cmd: /Users/baoxin/anaconda3/bin/conda install gunicorn
 +http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::gunicorn-19.8.1-py36_0
 # update specs: ['gunicorn']
+==> 2018-05-25 18:43:04 <==
+# cmd: /Users/baoxin/anaconda3/bin/conda install psycopg2
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::libpq-10.3-hf30b1f0_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::psycopg2-2.7.4-py36hdbc3d79_0
+# update specs: ['psycopg2']

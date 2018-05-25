@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 10.3
+Requires: 
+Requires.private: 
+Cflags: -I/Users/baoxin/anaconda3/envs/mynote/include
+Libs: -L/Users/baoxin/anaconda3/envs/mynote/lib -lpgtypes
+Libs.private: -L/Users/baoxin/anaconda3/envs/mynote/lib -lm

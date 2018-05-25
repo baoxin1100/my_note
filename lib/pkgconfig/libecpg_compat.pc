@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 10.3
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/baoxin/anaconda3/envs/mynote/include
+Libs: -L/Users/baoxin/anaconda3/envs/mynote/lib -lecpg_compat
+Libs.private: -L/Users/baoxin/anaconda3/envs/mynote/lib -lpq -lm
