@@ -1,0 +1,22 @@
+{% extends "myblog/base.html" %}
+
+{% load static %}
+
+{% block header %}
+	<div class='jumbotron'>
+		<h2>Note some ideas!</h2>
+		<P>life will be better...</P>
+		<p><a href="{% url 'myblog:topics' %}" class="btn btn-primary btn-lg" role="button">more detail...</a></p>
+	</div>
+{% endblock header %}
+
+{% block content %}
+	<div style="text-align:center ">
+		<h2>
+		about me
+		</h2>
+		<img src="{% static "myblog/me.jpeg" %}" alt="me_icon" width="90px" height="100px" />
+		<p>Baoxin Liao</p>
+		<p><a href="https://github.com/baoxin1100"><img src="{% static "myblog/github.png" %}" alt="github_icon" width="35px" height="30px" /></a></p>
+	</div>
+{% endblock content %}

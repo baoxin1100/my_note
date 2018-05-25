@@ -1,0 +1,30 @@
+==> 2018-05-22 09:55:42 <==
+# cmd: /Users/baoxin/anaconda3/bin/conda create --name mynote django
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::ca-certificates-2018.03.07-0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::certifi-2018.4.16-py36_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::django-2.0.5-py36hd476221_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::libcxx-4.0.1-h579ed51_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::libcxxabi-4.0.1-hebd6815_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::libedit-3.1.20170329-hb402a30_2
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::libffi-3.2.1-h475c297_4
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::ncurses-6.1-h0a44026_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::openssl-1.0.2o-h26aff7b_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::pip-10.0.1-py36_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::python-3.6.5-hc167b69_1
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::pytz-2018.4-py36_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::readline-7.0-hc1231fa_4
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::setuptools-39.1.0-py36_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::sqlite-3.23.1-hf1716c9_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::tk-8.6.7-h35a86e2_3
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::wheel-0.31.1-py36_0
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::xz-5.2.4-h1de35cc_4
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::zlib-1.2.11-hf3cbc9b_2
+# update specs: ['django']
+==> 2018-05-25 13:39:34 <==
+# cmd: /Users/baoxin/anaconda3/bin/conda install markdown
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::markdown-2.6.11-py36_0
+# update specs: ['markdown']
+==> 2018-05-25 14:18:11 <==
+# cmd: /Users/baoxin/anaconda3/bin/conda install gunicorn
++http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main::gunicorn-19.8.1-py36_0
+# update specs: ['gunicorn']

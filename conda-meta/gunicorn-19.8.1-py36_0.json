@@ -1,0 +1,751 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/Users/baoxin/anaconda3/pkgs/gunicorn-19.8.1-py36_0",
+  "files": [
+    "bin/gunicorn",
+    "bin/gunicorn_paster",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/gunicorn/__init__.py",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/_compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/arbiter.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/argparse_compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/config.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/debug.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/errors.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/glogging.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/pidfile.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/reloader.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/selectors.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/six.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/sock.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/systemd.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/_compat.py",
+    "lib/python3.6/site-packages/gunicorn/app/__init__.py",
+    "lib/python3.6/site-packages/gunicorn/app/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/app/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/app/__pycache__/pasterapp.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/app/__pycache__/wsgiapp.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/app/base.py",
+    "lib/python3.6/site-packages/gunicorn/app/pasterapp.py",
+    "lib/python3.6/site-packages/gunicorn/app/wsgiapp.py",
+    "lib/python3.6/site-packages/gunicorn/arbiter.py",
+    "lib/python3.6/site-packages/gunicorn/argparse_compat.py",
+    "lib/python3.6/site-packages/gunicorn/config.py",
+    "lib/python3.6/site-packages/gunicorn/debug.py",
+    "lib/python3.6/site-packages/gunicorn/errors.py",
+    "lib/python3.6/site-packages/gunicorn/glogging.py",
+    "lib/python3.6/site-packages/gunicorn/http/__init__.py",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/_sendfile.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/body.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/errors.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/message.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/unreader.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/__pycache__/wsgi.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/http/_sendfile.py",
+    "lib/python3.6/site-packages/gunicorn/http/body.py",
+    "lib/python3.6/site-packages/gunicorn/http/errors.py",
+    "lib/python3.6/site-packages/gunicorn/http/message.py",
+    "lib/python3.6/site-packages/gunicorn/http/parser.py",
+    "lib/python3.6/site-packages/gunicorn/http/unreader.py",
+    "lib/python3.6/site-packages/gunicorn/http/wsgi.py",
+    "lib/python3.6/site-packages/gunicorn/instrument/__init__.py",
+    "lib/python3.6/site-packages/gunicorn/instrument/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/instrument/__pycache__/statsd.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/instrument/statsd.py",
+    "lib/python3.6/site-packages/gunicorn/pidfile.py",
+    "lib/python3.6/site-packages/gunicorn/reloader.py",
+    "lib/python3.6/site-packages/gunicorn/selectors.py",
+    "lib/python3.6/site-packages/gunicorn/six.py",
+    "lib/python3.6/site-packages/gunicorn/sock.py",
+    "lib/python3.6/site-packages/gunicorn/systemd.py",
+    "lib/python3.6/site-packages/gunicorn/util.py",
+    "lib/python3.6/site-packages/gunicorn/workers/__init__.py",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/_gaiohttp.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/async.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/gaiohttp.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/geventlet.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/ggevent.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/gthread.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/gtornado.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/sync.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/__pycache__/workertmp.cpython-36.pyc",
+    "lib/python3.6/site-packages/gunicorn/workers/_gaiohttp.py",
+    "lib/python3.6/site-packages/gunicorn/workers/async.py",
+    "lib/python3.6/site-packages/gunicorn/workers/base.py",
+    "lib/python3.6/site-packages/gunicorn/workers/gaiohttp.py",
+    "lib/python3.6/site-packages/gunicorn/workers/geventlet.py",
+    "lib/python3.6/site-packages/gunicorn/workers/ggevent.py",
+    "lib/python3.6/site-packages/gunicorn/workers/gthread.py",
+    "lib/python3.6/site-packages/gunicorn/workers/gtornado.py",
+    "lib/python3.6/site-packages/gunicorn/workers/sync.py",
+    "lib/python3.6/site-packages/gunicorn/workers/workertmp.py"
+  ],
+  "fn": "gunicorn-19.8.1-py36_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/baoxin/anaconda3/pkgs/gunicorn-19.8.1-py36_0",
+    "type": 1
+  },
+  "md5": "c942a84afa4e4a3657745531f6e55e94",
+  "name": "gunicorn",
+  "package_tarball_full_path": "/Users/baoxin/anaconda3/pkgs/gunicorn-19.8.1-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/gunicorn",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "b554b231a7a745071aef7de6cf2aee7d1e9226a91411dcf48ef58547ad216772",
+        "sha256_in_prefix": "d0bc3209f5b2e28dddfc89b5329a1f29d9e9a0a05f138daaa68a4fccfb9e1ae6",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "bin/gunicorn_paster",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c2e01e032199a62d6e7991819e1bb265415dcda6f9a563549e1978661c2255d7",
+        "sha256_in_prefix": "f8d571e1d72956c708109f367c2f56a5b29eae494d18dd4350cbc255e733e2e2",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "229fc9538288c96ac36106e9529b0d04184f55b1c5329d36b12133dcf997e02b",
+        "sha256_in_prefix": "229fc9538288c96ac36106e9529b0d04184f55b1c5329d36b12133dcf997e02b",
+        "size_in_bytes": 3659
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "cb2d22a3c043628f88f5114877dbc78ce8a8a80dcf4cf981eebc02066119a70c",
+        "sha256_in_prefix": "cb2d22a3c043628f88f5114877dbc78ce8a8a80dcf4cf981eebc02066119a70c",
+        "size_in_bytes": 8380
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "5de14834a45d4942b02706954a894edb83ee57f61e3bbd48305fab3ab6b924ef",
+        "sha256_in_prefix": "5de14834a45d4942b02706954a894edb83ee57f61e3bbd48305fab3ab6b924ef",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "a0a9971849063fba64aa68835997d69086672955ff5896a598df3d2f6b8854aa",
+        "sha256_in_prefix": "a0a9971849063fba64aa68835997d69086672955ff5896a598df3d2f6b8854aa",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn-19.8.1-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "71d31a6b6ca1c5bf1da3e5a2a18f6a4475027f07f9e58ced8f04029dc6889e81",
+        "sha256_in_prefix": "71d31a6b6ca1c5bf1da3e5a2a18f6a4475027f07f9e58ced8f04029dc6889e81",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "63506555a45536320a5ea4b372a4cd1e8f5dab6786ea480fc798d62778791911",
+        "sha256_in_prefix": "63506555a45536320a5ea4b372a4cd1e8f5dab6786ea480fc798d62778791911",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "046eb5ff917eef5a897a691ddf07be09799adc71968482912c1e85f375262b80",
+        "sha256_in_prefix": "046eb5ff917eef5a897a691ddf07be09799adc71968482912c1e85f375262b80",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/_compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e51e4b87beb525ecf54c8781c26961a5ecfbd8c645f480d0fe8434b963323209",
+        "sha256_in_prefix": "e51e4b87beb525ecf54c8781c26961a5ecfbd8c645f480d0fe8434b963323209",
+        "size_in_bytes": 7669
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/arbiter.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8dabd9b1240e9fbc46425c610646e8e1b129b164ea62930a8a792f56254b610b",
+        "sha256_in_prefix": "8dabd9b1240e9fbc46425c610646e8e1b129b164ea62930a8a792f56254b610b",
+        "size_in_bytes": 16642
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/argparse_compat.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6283d7a81cb87702a70e01bbc616d473de963fdf011a41eba81b93554cb29e5f",
+        "sha256_in_prefix": "6283d7a81cb87702a70e01bbc616d473de963fdf011a41eba81b93554cb29e5f",
+        "size_in_bytes": 58928
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/config.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "47a1477c2171233eef2eda28bd7fb284a6b6b049ebc844918730f4a0bcdcc3c8",
+        "sha256_in_prefix": "47a1477c2171233eef2eda28bd7fb284a6b6b049ebc844918730f4a0bcdcc3c8",
+        "size_in_bytes": 59995
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/debug.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c112a6a4a26039023d1115e5c92fd1e5fea7cbde14e65f29d60b018a93b3b51f",
+        "sha256_in_prefix": "c112a6a4a26039023d1115e5c92fd1e5fea7cbde14e65f29d60b018a93b3b51f",
+        "size_in_bytes": 1956
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/errors.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a53749ed24bd4fc908c1bf97aed1ea2e053668669482205ddceb632ff7d68fa7",
+        "sha256_in_prefix": "a53749ed24bd4fc908c1bf97aed1ea2e053668669482205ddceb632ff7d68fa7",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/glogging.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e62f3b1ec11fa8514e7f83532d2cc0423186e35209bc2a61835b5655851cd97",
+        "sha256_in_prefix": "5e62f3b1ec11fa8514e7f83532d2cc0423186e35209bc2a61835b5655851cd97",
+        "size_in_bytes": 11431
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/pidfile.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "374124e7a360ce3f813fda6b31fe5797240b59ba0f541f252cbc2b0024c9d626",
+        "sha256_in_prefix": "374124e7a360ce3f813fda6b31fe5797240b59ba0f541f252cbc2b0024c9d626",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/reloader.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "24dc714fb3bfba5d1972dbb0673a67bf306811be8e8393f97247ecde81532513",
+        "sha256_in_prefix": "24dc714fb3bfba5d1972dbb0673a67bf306811be8e8393f97247ecde81532513",
+        "size_in_bytes": 3925
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/selectors.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1088743f8bd3a8b7c7c08e0f1f8ab0665651777cb4241fa93351e3d05efec370",
+        "sha256_in_prefix": "1088743f8bd3a8b7c7c08e0f1f8ab0665651777cb4241fa93351e3d05efec370",
+        "size_in_bytes": 17385
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/six.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c8d550eccfb0b82d2c4306030d29f82660ddb2fd16e0bc7b9b764b14cb44db6",
+        "sha256_in_prefix": "9c8d550eccfb0b82d2c4306030d29f82660ddb2fd16e0bc7b9b764b14cb44db6",
+        "size_in_bytes": 22110
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/sock.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c85c5997206aa8e4d7de7593fea6554999f7b293a40e1f2745806bbeb1760029",
+        "sha256_in_prefix": "c85c5997206aa8e4d7de7593fea6554999f7b293a40e1f2745806bbeb1760029",
+        "size_in_bytes": 5881
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/systemd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "26535d69f5a71483b07a891395bac3d9691380d8756877f6f64ee9f8d2704721",
+        "sha256_in_prefix": "26535d69f5a71483b07a891395bac3d9691380d8756877f6f64ee9f8d2704721",
+        "size_in_bytes": 1346
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/__pycache__/util.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa3952515938be1e52a34106329c3994cd102761102fd322050e27307a49c41e",
+        "sha256_in_prefix": "aa3952515938be1e52a34106329c3994cd102761102fd322050e27307a49c41e",
+        "size_in_bytes": 11842
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "e5c5dbeaf31f5732270eaf801cdc997ec2be506e4d7ad0e7eb69cf7eaca51d25",
+        "sha256_in_prefix": "e5c5dbeaf31f5732270eaf801cdc997ec2be506e4d7ad0e7eb69cf7eaca51d25",
+        "size_in_bytes": 9355
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1aeaacb6a7648b3795e0745b77c6863019f443c2033b2454d7030c36a35ee466",
+        "sha256_in_prefix": "1aeaacb6a7648b3795e0745b77c6863019f443c2033b2454d7030c36a35ee466",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e72aa035dd9ea70c6a34e8c4749736d711abc84acca754a224f22ed8ea28d4f",
+        "sha256_in_prefix": "7e72aa035dd9ea70c6a34e8c4749736d711abc84acca754a224f22ed8ea28d4f",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/__pycache__/base.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3dc7bdb9ba7ec5a7609bfcafb71398b4ee909e5bdc4cde89b9545fb7928e27d7",
+        "sha256_in_prefix": "3dc7bdb9ba7ec5a7609bfcafb71398b4ee909e5bdc4cde89b9545fb7928e27d7",
+        "size_in_bytes": 6016
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/__pycache__/pasterapp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "72e129d791cc731b316a4c77bb6e74aceea2976552928036d773cdcb4d84ba2a",
+        "sha256_in_prefix": "72e129d791cc731b316a4c77bb6e74aceea2976552928036d773cdcb4d84ba2a",
+        "size_in_bytes": 5609
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/__pycache__/wsgiapp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e0f697dfe48c0521b00aedd1ead98423ca5e7053a579080a9380f234efba0d1",
+        "sha256_in_prefix": "2e0f697dfe48c0521b00aedd1ead98423ca5e7053a579080a9380f234efba0d1",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/base.py",
+        "path_type": "hardlink",
+        "sha256": "2cac72ce22cc3cd94adea9ba74f3227842c1a9f2df9b00459e7f5207e281a201",
+        "sha256_in_prefix": "2cac72ce22cc3cd94adea9ba74f3227842c1a9f2df9b00459e7f5207e281a201",
+        "size_in_bytes": 6652
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/pasterapp.py",
+        "path_type": "hardlink",
+        "sha256": "006cd99d4a5ca70f0ef0aae2cf14e0749059e2541dac782c57481dc7b1554ecf",
+        "sha256_in_prefix": "006cd99d4a5ca70f0ef0aae2cf14e0749059e2541dac782c57481dc7b1554ecf",
+        "size_in_bytes": 6046
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/app/wsgiapp.py",
+        "path_type": "hardlink",
+        "sha256": "9f2ef5aa37a040797f6c632335fabf69e98fae6184a47d9b31121da61e9b8f84",
+        "sha256_in_prefix": "9f2ef5aa37a040797f6c632335fabf69e98fae6184a47d9b31121da61e9b8f84",
+        "size_in_bytes": 1870
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/arbiter.py",
+        "path_type": "hardlink",
+        "sha256": "01b24d4859d39b1f5077ebd902a107df2e5fcfcc9d3e6ca58bf04444d2307721",
+        "sha256_in_prefix": "01b24d4859d39b1f5077ebd902a107df2e5fcfcc9d3e6ca58bf04444d2307721",
+        "size_in_bytes": 20158
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/argparse_compat.py",
+        "path_type": "hardlink",
+        "sha256": "82c1c31b0a380522561dd89a117cb4126afde8d282d0b0d898ae6707b3c4f107",
+        "sha256_in_prefix": "82c1c31b0a380522561dd89a117cb4126afde8d282d0b0d898ae6707b3c4f107",
+        "size_in_bytes": 87791
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/config.py",
+        "path_type": "hardlink",
+        "sha256": "1c3a16674272a0fce5d965ba8650dab437afbe17da878a12fe3eed3aaf0f6bb1",
+        "sha256_in_prefix": "1c3a16674272a0fce5d965ba8650dab437afbe17da878a12fe3eed3aaf0f6bb1",
+        "size_in_bytes": 53417
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/debug.py",
+        "path_type": "hardlink",
+        "sha256": "514c3e7ad78b126fce43df03e8add7b438f1e03c9ad87df9cdd8aef33ec5eee7",
+        "sha256_in_prefix": "514c3e7ad78b126fce43df03e8add7b438f1e03c9ad87df9cdd8aef33ec5eee7",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/errors.py",
+        "path_type": "hardlink",
+        "sha256": "2650c18da83dd203224702c71b7c73109cc33a7b5297588cdf6476efbf94ea3d",
+        "sha256_in_prefix": "2650c18da83dd203224702c71b7c73109cc33a7b5297588cdf6476efbf94ea3d",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/glogging.py",
+        "path_type": "hardlink",
+        "sha256": "3cc7687ba85d05058a1a59cfe255dd06987a6f5ca00f49249f1903b263485525",
+        "sha256_in_prefix": "3cc7687ba85d05058a1a59cfe255dd06987a6f5ca00f49249f1903b263485525",
+        "size_in_bytes": 15554
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6f84c5df1e45d1560e3d339e358c11191d4460705a3cc85944ca0d7ae0f9fa7d",
+        "sha256_in_prefix": "6f84c5df1e45d1560e3d339e358c11191d4460705a3cc85944ca0d7ae0f9fa7d",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "add51abb99827f2d3c6c1aa284bab77ac19ae47585e572e72f6668131e08bb60",
+        "sha256_in_prefix": "add51abb99827f2d3c6c1aa284bab77ac19ae47585e572e72f6668131e08bb60",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/_sendfile.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3e0ce1f86d772d492bc410551cdd81ec68f65fe8addc45366024be8e8df5b3f",
+        "sha256_in_prefix": "c3e0ce1f86d772d492bc410551cdd81ec68f65fe8addc45366024be8e8df5b3f",
+        "size_in_bytes": 1333
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/body.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "097b1b5628ddc48531d85e14346ef480d872f495232d71ad7e8e32c0bf7fa53c",
+        "sha256_in_prefix": "097b1b5628ddc48531d85e14346ef480d872f495232d71ad7e8e32c0bf7fa53c",
+        "size_in_bytes": 6412
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/errors.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "21c822fef1011dbd1d1fc4e358ab600d47e0699ad4c4fb151f3a6c87dad2f544",
+        "sha256_in_prefix": "21c822fef1011dbd1d1fc4e358ab600d47e0699ad4c4fb151f3a6c87dad2f544",
+        "size_in_bytes": 5831
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/message.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "210936dc1f3c6311ec5aad219b4cff3223253c7ab353cac233a5473a3c9834bf",
+        "sha256_in_prefix": "210936dc1f3c6311ec5aad219b4cff3223253c7ab353cac233a5473a3c9834bf",
+        "size_in_bytes": 8698
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/parser.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc7528c1768c2dc618f13c941829c1b2de8615accd4e1cf2a239b3859112580d",
+        "sha256_in_prefix": "bc7528c1768c2dc618f13c941829c1b2de8615accd4e1cf2a239b3859112580d",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/unreader.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "87110610e745dec28f47d86cf59a2bb1095ec1a8974aff8734cee85b92e6ccef",
+        "sha256_in_prefix": "87110610e745dec28f47d86cf59a2bb1095ec1a8974aff8734cee85b92e6ccef",
+        "size_in_bytes": 2418
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/__pycache__/wsgi.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6be9f1a420426e0f18a665c760fccc9e8c6d6d5d39f72fb9d7001c6577e6ab07",
+        "sha256_in_prefix": "6be9f1a420426e0f18a665c760fccc9e8c6d6d5d39f72fb9d7001c6577e6ab07",
+        "size_in_bytes": 9219
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/_sendfile.py",
+        "path_type": "hardlink",
+        "sha256": "12a77eb371e5bcbbb27c68ea687fc993bd9c02d115f2142fe6d6f533502a7015",
+        "sha256_in_prefix": "12a77eb371e5bcbbb27c68ea687fc993bd9c02d115f2142fe6d6f533502a7015",
+        "size_in_bytes": 2217
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/body.py",
+        "path_type": "hardlink",
+        "sha256": "326959a63ffaa113e3de83d548c419af45f7287ea2927b710e755c2e07de919b",
+        "sha256_in_prefix": "326959a63ffaa113e3de83d548c419af45f7287ea2927b710e755c2e07de919b",
+        "size_in_bytes": 7345
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/errors.py",
+        "path_type": "hardlink",
+        "sha256": "b0d8c5da59b89b6ab267d97de7f537dc54713d7a715f38e767262a592fa1c5de",
+        "sha256_in_prefix": "b0d8c5da59b89b6ab267d97de7f537dc54713d7a715f38e767262a592fa1c5de",
+        "size_in_bytes": 2850
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/message.py",
+        "path_type": "hardlink",
+        "sha256": "1b9a68d2ea706eb4f222081bfc810022d2234a2fda0e85982cf43ada8f29388e",
+        "sha256_in_prefix": "1b9a68d2ea706eb4f222081bfc810022d2234a2fda0e85982cf43ada8f29388e",
+        "size_in_bytes": 12257
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/parser.py",
+        "path_type": "hardlink",
+        "sha256": "21132fa74bde3f8c0bf19e2f80d57bd823f274234f74d348cbdbbe0e50efbd2a",
+        "sha256_in_prefix": "21132fa74bde3f8c0bf19e2f80d57bd823f274234f74d348cbdbbe0e50efbd2a",
+        "size_in_bytes": 1294
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/unreader.py",
+        "path_type": "hardlink",
+        "sha256": "b389035b97ae8893ec0ee1f30aa15752d1c2029a88c694a16fd76d0328c9c3d6",
+        "sha256_in_prefix": "b389035b97ae8893ec0ee1f30aa15752d1c2029a88c694a16fd76d0328c9c3d6",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/http/wsgi.py",
+        "path_type": "hardlink",
+        "sha256": "ff9cd8165e4718aacfa4432b127b0bc8fade38971381a633b0406e26410e9a4a",
+        "sha256_in_prefix": "ff9cd8165e4718aacfa4432b127b0bc8fade38971381a633b0406e26410e9a4a",
+        "size_in_bytes": 12852
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/instrument/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/instrument/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "86b5f6a691b20ec80fd2dc5156ad132d88b85dc7b33458d08de187a981aedc8d",
+        "sha256_in_prefix": "86b5f6a691b20ec80fd2dc5156ad132d88b85dc7b33458d08de187a981aedc8d",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/instrument/__pycache__/statsd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "afa94ea36dd0120bd323199c7ddc143e472dfecaf1141bddfdbf2939b0f32bf1",
+        "sha256_in_prefix": "afa94ea36dd0120bd323199c7ddc143e472dfecaf1141bddfdbf2939b0f32bf1",
+        "size_in_bytes": 4464
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/instrument/statsd.py",
+        "path_type": "hardlink",
+        "sha256": "e71b9e0ee4d9305b664bc6b2193e2c53f3b207daa412fe00824f9e2700268493",
+        "sha256_in_prefix": "e71b9e0ee4d9305b664bc6b2193e2c53f3b207daa412fe00824f9e2700268493",
+        "size_in_bytes": 4434
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/pidfile.py",
+        "path_type": "hardlink",
+        "sha256": "ffaf6db1f175687925accac97b6b07111a2f31db91072553bfdf66cbbc90f3be",
+        "sha256_in_prefix": "ffaf6db1f175687925accac97b6b07111a2f31db91072553bfdf66cbbc90f3be",
+        "size_in_bytes": 2357
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/reloader.py",
+        "path_type": "hardlink",
+        "sha256": "7e1e09ef0fc3c56685b857771b84723a00c5b350b596b774c3b8ce5c8b52bb98",
+        "sha256_in_prefix": "7e1e09ef0fc3c56685b857771b84723a00c5b350b596b774c3b8ce5c8b52bb98",
+        "size_in_bytes": 3791
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "d78fd4112ae913701029758a79e0141bdbc14f3274c936031ad128eb13ad9436",
+        "sha256_in_prefix": "d78fd4112ae913701029758a79e0141bdbc14f3274c936031ad128eb13ad9436",
+        "size_in_bytes": 18997
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/six.py",
+        "path_type": "hardlink",
+        "sha256": "e8dfba44210d3df06d3293795268037c32a625e6db6ee3eefc393765ff27830c",
+        "sha256_in_prefix": "e8dfba44210d3df06d3293795268037c32a625e6db6ee3eefc393765ff27830c",
+        "size_in_bytes": 27344
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/sock.py",
+        "path_type": "hardlink",
+        "sha256": "817d85b1db0e18c0ad4876c35e7ee5b22618611737ae842494824b8a9d68650a",
+        "sha256_in_prefix": "817d85b1db0e18c0ad4876c35e7ee5b22618611737ae842494824b8a9d68650a",
+        "size_in_bytes": 6019
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/systemd.py",
+        "path_type": "hardlink",
+        "sha256": "7df86fd7b71dbfe8437850098b578056d26c92455c895e9c414ef9436a2996a8",
+        "sha256_in_prefix": "7df86fd7b71dbfe8437850098b578056d26c92455c895e9c414ef9436a2996a8",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/util.py",
+        "path_type": "hardlink",
+        "sha256": "36cfdaf0f7fb3246848b429b5771ac3fd6954366bf4b8e448d213a232836b585",
+        "sha256_in_prefix": "36cfdaf0f7fb3246848b429b5771ac3fd6954366bf4b8e448d213a232836b585",
+        "size_in_bytes": 16229
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "679ec6d568e7643086e760bc3e089717898a44aaa5bfcd5bd861e484e2623ba0",
+        "sha256_in_prefix": "679ec6d568e7643086e760bc3e089717898a44aaa5bfcd5bd861e484e2623ba0",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "74b75bcc32ed8061e26d33cf6bf34fe3fba8cd3c66218579c4a2d3f9fff66cfa",
+        "sha256_in_prefix": "74b75bcc32ed8061e26d33cf6bf34fe3fba8cd3c66218579c4a2d3f9fff66cfa",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/_gaiohttp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c02aa76a480fa322b9e1423bcc0122b1b1e4032a73b0c768a7537a4b6cb9339b",
+        "sha256_in_prefix": "c02aa76a480fa322b9e1423bcc0122b1b1e4032a73b0c768a7537a4b6cb9339b",
+        "size_in_bytes": 4868
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/async.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad31cc10e6c6faf0ba3f1f77b7fafd29b8631825f980c52da32ed3caa89975d2",
+        "sha256_in_prefix": "ad31cc10e6c6faf0ba3f1f77b7fafd29b8631825f980c52da32ed3caa89975d2",
+        "size_in_bytes": 3834
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/base.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ac1db266294a068816beb930719d029fdbff44f0201d0cee05436682362d629",
+        "sha256_in_prefix": "7ac1db266294a068816beb930719d029fdbff44f0201d0cee05436682362d629",
+        "size_in_bytes": 7499
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/gaiohttp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9beedd0d27cfe403c301f2fb00010ca04c7101134432ae8abe1d4bceff3603c7",
+        "sha256_in_prefix": "9beedd0d27cfe403c301f2fb00010ca04c7101134432ae8abe1d4bceff3603c7",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/geventlet.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7c8d7af14d3d1ac135f4d2b81a2f58cb91657907523ee1b02af591912804345",
+        "sha256_in_prefix": "a7c8d7af14d3d1ac135f4d2b81a2f58cb91657907523ee1b02af591912804345",
+        "size_in_bytes": 4616
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/ggevent.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "93ceace37b5705694c42a4ec5eff64046bb417ffdc0712d70f40ddfefe41abaf",
+        "sha256_in_prefix": "93ceace37b5705694c42a4ec5eff64046bb417ffdc0712d70f40ddfefe41abaf",
+        "size_in_bytes": 6652
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/gthread.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f954db75b30e2134170fc9bd6ca32af57577c27711d6b7990516ec11e35ffa16",
+        "sha256_in_prefix": "f954db75b30e2134170fc9bd6ca32af57577c27711d6b7990516ec11e35ffa16",
+        "size_in_bytes": 8748
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/gtornado.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "97fcd5eb5fa2667772dc094fea37c8ca745c17de9d93bef6c7925c2dd9f445af",
+        "sha256_in_prefix": "97fcd5eb5fa2667772dc094fea37c8ca745c17de9d93bef6c7925c2dd9f445af",
+        "size_in_bytes": 4054
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/sync.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5967bf718e2c20c5a8d68fd059ea4a0bd9d418af2b4538baa0ccfcbebbc865b8",
+        "sha256_in_prefix": "5967bf718e2c20c5a8d68fd059ea4a0bd9d418af2b4538baa0ccfcbebbc865b8",
+        "size_in_bytes": 5072
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/__pycache__/workertmp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "71b5b02551aff0352bc84345bac5543bdd800cab7ca65e1a21f354d0c507747b",
+        "sha256_in_prefix": "71b5b02551aff0352bc84345bac5543bdd800cab7ca65e1a21f354d0c507747b",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/_gaiohttp.py",
+        "path_type": "hardlink",
+        "sha256": "0852a2c8b36a5aa7a6843bc3a2f6fe26a3114cc373e74819530c0ea488eba47c",
+        "sha256_in_prefix": "0852a2c8b36a5aa7a6843bc3a2f6fe26a3114cc373e74819530c0ea488eba47c",
+        "size_in_bytes": 5071
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/async.py",
+        "path_type": "hardlink",
+        "sha256": "e785644b74bfc2b143eefde32278457e478185a3e757950df9cbbe8b93285e47",
+        "sha256_in_prefix": "e785644b74bfc2b143eefde32278457e478185a3e757950df9cbbe8b93285e47",
+        "size_in_bytes": 5575
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/base.py",
+        "path_type": "hardlink",
+        "sha256": "79875ccb610f97275c8f28b60a981e534b6a949a73dff92df916c68686a6bd0f",
+        "sha256_in_prefix": "79875ccb610f97275c8f28b60a981e534b6a949a73dff92df916c68686a6bd0f",
+        "size_in_bytes": 9126
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/gaiohttp.py",
+        "path_type": "hardlink",
+        "sha256": "deb857932e803e4848d03f67c1796880ba3f25df6ff7c0a212e0b2f629f3094e",
+        "sha256_in_prefix": "deb857932e803e4848d03f67c1796880ba3f25df6ff7c0a212e0b2f629f3094e",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/geventlet.py",
+        "path_type": "hardlink",
+        "sha256": "2fb3766e2cca430f155dbd36b5ebb5ff06151b9870b7d4926909fb2749122b22",
+        "sha256_in_prefix": "2fb3766e2cca430f155dbd36b5ebb5ff06151b9870b7d4926909fb2749122b22",
+        "size_in_bytes": 4253
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/ggevent.py",
+        "path_type": "hardlink",
+        "sha256": "873c7690e64fd77c95073f8406d8684e08da94e79129fa149395dc86644acc33",
+        "sha256_in_prefix": "873c7690e64fd77c95073f8406d8684e08da94e79129fa149395dc86644acc33",
+        "size_in_bytes": 7407
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/gthread.py",
+        "path_type": "hardlink",
+        "sha256": "1c8a16bb294765f1f5c254a1e1e67cc31a35910e5a6ef7546857ca7c8b2042f2",
+        "sha256_in_prefix": "1c8a16bb294765f1f5c254a1e1e67cc31a35910e5a6ef7546857ca7c8b2042f2",
+        "size_in_bytes": 12009
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/gtornado.py",
+        "path_type": "hardlink",
+        "sha256": "2ed0569c45fb30da5e197f989a5068575fce3a18e4772b459add69cce9513d99",
+        "sha256_in_prefix": "2ed0569c45fb30da5e197f989a5068575fce3a18e4772b459add69cce9513d99",
+        "size_in_bytes": 5044
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/sync.py",
+        "path_type": "hardlink",
+        "sha256": "fef7752404cd2c6e0c809a693491b9296048ccb198a91ce1100415cfd1f5d4b2",
+        "sha256_in_prefix": "fef7752404cd2c6e0c809a693491b9296048ccb198a91ce1100415cfd1f5d4b2",
+        "size_in_bytes": 7153
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gunicorn/workers/workertmp.py",
+        "path_type": "hardlink",
+        "sha256": "e9020d3c1aeb88bbdece0902fe172538e7972e2fe8c0cb7f48e03928f10837e0",
+        "sha256_in_prefix": "e9020d3c1aeb88bbdece0902fe172538e7972e2fe8c0cb7f48e03928f10837e0",
+        "size_in_bytes": 1459
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "gunicorn",
+  "size": 175755,
+  "subdir": "osx-64",
+  "timestamp": 1526125736624,
+  "url": "http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/osx-64/gunicorn-19.8.1-py36_0.tar.bz2",
+  "version": "19.8.1"
+}
